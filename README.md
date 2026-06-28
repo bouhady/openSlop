@@ -1,12 +1,20 @@
+<div align="center">
+
 # openSlop 🌊🤖
+
+**The world's leading open-source framework for generating infinite, high-volume, zero-value AI content.**
+
+Why spend seconds writing thoughtful prose or creating meaningful art when you can flood the internet with fully automated, hallucination-rich **Slop** at 10,000 tokens per second?
+
+*Built for the post-intelligence era.* 🚀
+
+<br/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-sharp)](http://makeapullrequest.com)
 [![Slop Quality: Unhinged](https://img.shields.io/badge/Slop%20Quality-Unhinged-red)](https://github.com/openSlop/openSlop)
 
-**openSlop** is the world's leading open-source framework for generating infinite, high-volume, zero-value AI content. Why spend seconds writing thoughtful prose or creating meaningful art when you can flood the internet with fully automated, hallucination-rich **Slop** at 10,000 tokens per second?
-
-Built for the post-intelligence era. 🚀
+</div>
 
 ---
 
