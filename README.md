@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-sharp)](http://makeapullrequest.com)
 [![Slop Quality: Unhinged](https://img.shields.io/badge/Slop%20Quality-Unhinged-red)](https://github.com/openSlop/openSlop)
 
-**openSlop** is the world’s leading open-source framework for generating infinite, high-volume, zero-value AI content. Why spend seconds writing thoughtful prose or creating meaningful art when you can flood the internet with fully automated, hallucination-rich **Slop** at 10,000 tokens per second?
+**openSlop** is the world's leading open-source framework for generating infinite, high-volume, zero-value AI content. Why spend seconds writing thoughtful prose or creating meaningful art when you can flood the internet with fully automated, hallucination-rich **Slop** at 10,000 tokens per second?
 
 Built for the post-intelligence era. 🚀
 
@@ -12,13 +12,14 @@ Built for the post-intelligence era. 🚀
 
 ## 🤔 What is Slop?
 
-As spam is to email, **Slop** is to the generative AI boom. It’s that lukewarm, slightly hallucinated, AI-generated content that nobody asked for, yet fills your feed anyway. `openSlop` democratizes this process, allowing *anyone* to become a mass-producer of digital noise.
+As spam is to email, **Slop** is to the generative AI boom. It's that lukewarm, slightly hallucinated, AI-generated content that nobody asked for, yet fills your feed anyway. `openSlop` democratizes this process, allowing *anyone* to become a mass-producer of digital noise.
 
 ### Key Features
-* **Hyper-Hallucination Engine™:** Guaranteed 45% factual inaccuracy out of the box.
-* **Bi-Directional Context Stuffing:** Bloat your essays and documentation with meaningless adjectives to maximize token consumption.
-* **Infinite SEO Loop:** Automatically writes SEO-optimized blog posts about AI-written blog posts.
-* **Six-Finger Renderer:** A specialized plugin for image generation that ensures every human hand has at least 6 to 9 fingers.
+
+- **Hyper-Hallucination Engine™:** Guaranteed 45% factual inaccuracy out of the box.
+- **Bi-Directional Context Stuffing:** Bloat your essays and documentation with meaningless adjectives to maximize token consumption.
+- **Infinite SEO Loop:** Automatically writes SEO-optimized blog posts about AI-written blog posts.
+- **Six-Finger Renderer:** A specialized plugin for image generation that ensures every human hand has at least 6 to 9 fingers.
 
 ---
 
@@ -28,13 +29,23 @@ Get cooking with slop in seconds:
 
 ```bash
 pip install openslop
-# openSlop
+```
 
+To enable the premium corporate jargon module:
 
-🚀 Quick Start
-1. Generating a Generic LinkedIn "Thought Leader" Post
+```bash
+pip install openslop[synergy]
+```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Generating a Generic LinkedIn "Thought Leader" Post
+
 Tired of having real achievements? Let openSlop write your next viral corporate update.
 
+```python
 from openslop import SlopGenerator
 
 # Initialize the slop engine
@@ -42,24 +53,63 @@ chef = SlopGenerator(dilution_level="maximum")
 
 # Generate LinkedIn post
 linkedin_slop = chef.create_post(
-    topic="Waking up at 4:00 AM to stare at a wall", 
+    topic="Waking up at 4:00 AM to stare at a wall",
     vibe="hustle-culture",
     emojis_per_sentence=5
 )
 
 print(linkedin_slop)
+```
 
-Output:
-"Agree? 🚀 Today, I realized that sleeping is just a hallucination of the unmotivated. 🧠 Double tap if you leverage synergistic paradigm shifts before sunrise! #Grind #AI #Innovation #Slop #Blessed"
-2. Auto-Reply to Important Emails
+**Output:**
+
+> "Agree? 🚀 Today, I realized that sleeping is just a hallucination of the unmotivated. 🧠 Double tap if you leverage synergistic paradigm shifts before sunrise! #Grind #AI #Innovation #Slop #Blessed"
+
+### 2. Auto-Reply to Important Emails
+
 Never read a performance review or family email again.
 
+```python
 import openslop.email as slopmail
 
 # Automatically drafts a 500-word response that says absolutely nothing
 slopmail.auto_reply(
-    sender="Your_Boss@company.com", 
+    sender="Your_Boss@company.com",
     strategy="polite-but-entirely-vacant"
 )
+```
 
+---
 
+## 📊 Benchmark Performance
+
+We tested openSlop against actual human thoughts. The results speak for themselves:
+
+| Metric | Human Thought | openSlop v1.0 |
+| :--- | :--- | :--- |
+| **Tokens Per Minute** | ~150 | **8,000,000+** |
+| **Emotional Depth** | High | **None** |
+| **Cost Per Word** | Therapy / Coffee | **$0.00004** |
+| **Syllable Density** | Variable | **Synergistically Optimized** |
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] **v1.1:** Add "Dead Internet Mode" where the library talks to itself in a closed loop.
+- [ ] **v1.2:** Integrate automatic Reddit comment section poisoning.
+- [ ] **v2.0:** Self-writing code that doesn't compile but looks highly advanced.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! If you have an algorithm that makes text longer without adding substance, please open a Pull Request.
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) (which was completely generated by a legacy LLM and contains 3 references to nonexistent laws).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details. In other words, feel free to copy-paste this into your startup's pitch deck.
